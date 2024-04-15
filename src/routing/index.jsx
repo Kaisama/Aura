@@ -7,12 +7,16 @@ import Home from "../pages/Home"
 // import Sale from "../pages/Sale";
 // import Piercing from "..pages/Piercing";
 // import Cart from "..pages/Cart";
-// import FindAStore from "../pages/FindAStore";
+import FindStore from "../pages/FindStore";
 import Gifts from "../pages/Gifts";
 import Wishlist from "../pages/Wishlist";
-import Cart from '../pages/Cart';
+import Piercing from '../pages/Piercing';
 import Header from '../components/Common/Header';
 import Footer from '../components/Common/Footer';
+import Collections from '../components/Common/Collections';
+import Stylechannel from './styleChannel';
+import PiercingSubRoutes from "./piercing";
+import DeliveryExchange from "./deliveryExchange"
 import New from "./new";
 import Jewellery from "./jewellery";
 
@@ -24,10 +28,18 @@ function Routing() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/wishlist' element={<Wishlist />} />
-        <Route path='/cart' element={<Cart />} />
+        <Route path='/piercing' element={<Piercing />} />
         <Route path='/gifts' element={<Gifts />} />
-        <Route path='/collections/*' element={<New />} />
-        <Route path='/collections/*' element={<Jewellery />} />
+        <Route path='/find-store' element={<FindStore />} />
+
+        <Route path='/collections' element={<Collections />} />
+
+        <Route path='/style-channel/*' element={<Stylechannel />} />
+        <Route path='/piercing/*' element={<PiercingSubRoutes />} />
+        <Route path='/delivery-payments/*' element={<DeliveryExchange />} />
+
+        {/* <Route path='/collections/*' element={<New />} />
+        <Route path='/collections/*' element={<Jewellery />} /> */}
       </Routes>
       <Footer/>
     </BrowserRouter>

@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import { BsHeart } from "react-icons/bs";
-import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoBagHandleOutline } from "react-icons/io5";
 import { LuUser } from "react-icons/lu";
 import { IoLocationOutline } from "react-icons/io5";
@@ -14,6 +13,8 @@ import GiftsHover from '../../NavHover/GiftsHover';
 import PiercingHover from '../../NavHover/PiercingHover';
 import SaleHover from '../../NavHover/SaleHover';
 import JewelleryHover from '../../NavHover/JewelleryHover';
+
+import Cart from "../../../pages/Cart";
 
 
 
@@ -62,9 +63,11 @@ function Header() {
 
         </div>
 
+      <Link to = "/">
         <div>
           <img src={LovisaLogo} alt='Lovisa Logo'/>
         </div>
+      </Link>
 
         <div className='flex flex-start items-center gap-[2.5rem]'>
 
@@ -75,12 +78,10 @@ function Header() {
             </div>
           </Link> 
 
-          <Link to = '/cart'>
             <div className='flex gap-2 items-center cursor-pointer'>
             <IoBagHandleOutline className=' h-[1.75rem] w-[1.5rem]'/>
-              <p style={underLineCSS}>cart: 0</p>
+              <p style={underLineCSS} onClick={<Cart />}>cart: 0</p>
             </div>
-          </Link>  
           
         </div>
       </div>

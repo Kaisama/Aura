@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function PiercingHover({setShowComponent}) {
 
@@ -11,11 +12,11 @@ function PiercingHover({setShowComponent}) {
       <p className='uppercase py-1.5'>In-store piercing</p>
       <hr className='mb-3 w-full'/>
 
-      <p className='py-1 hover:text-[#fc6161] hover:underline hover:cursor-pointer transition duration-200' style={paraStyle}>Piercing Studio Services</p>
-      <p className='py-1 hover:text-[#fc6161] hover:underline hover:cursor-pointer transition duration-200' style={paraStyle}>Piercing Aftercare</p>
-      <p className='py-1 hover:text-[#fc6161] hover:underline hover:cursor-pointer transition duration-200' style={paraStyle}>Piercing FAQ</p>
-      <p className='py-1 hover:text-[#fc6161] hover:underline hover:cursor-pointer transition duration-200' style={paraStyle}>Piercing Edit</p>
-      <p className='py-1 hover:text-[#fc6161] hover:underline hover:cursor-pointer transition duration-200' style={paraStyle}>Piercing Gift Card</p>
+      <Link to ="/piercing/studio-services"><p className='py-1 hover:text-[#fc6161] hover:underline hover:cursor-pointer transition duration-200' style={paraStyle}>Piercing Studio Services</p></Link>
+      <Link to ="/piercing/after-care"><p className='py-1 hover:text-[#fc6161] hover:underline hover:cursor-pointer transition duration-200' style={paraStyle}>Piercing Aftercare</p></Link>
+      <Link to ="/piercing/faq"><p className='py-1 hover:text-[#fc6161] hover:underline hover:cursor-pointer transition duration-200' style={paraStyle}>Piercing FAQ</p></Link>
+      <Link to ="/piercing/edit"><p className='py-1 hover:text-[#fc6161] hover:underline hover:cursor-pointer transition duration-200' style={paraStyle}>Piercing Edit</p></Link>
+      <Link to ="/piercing/gift-card"><p className='py-1 hover:text-[#fc6161] hover:underline hover:cursor-pointer transition duration-200' style={paraStyle}>Piercing Gift Card</p></Link>
     </div>
   )
 }
