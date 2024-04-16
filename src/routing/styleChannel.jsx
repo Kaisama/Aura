@@ -14,7 +14,6 @@ function New() {
         <Route path='/blog2' element={<Blog2 />} />
         <Route path='/blog3' element={<Blog3 />} />
         <Route path='/blog4' element={<Blog4 />} />
-
       </Routes>
   )
 }

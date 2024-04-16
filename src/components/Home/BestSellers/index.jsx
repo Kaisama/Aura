@@ -15,9 +15,11 @@ function BestSellers() {
             </div>
           </div>
 
-          <button className="bg-black text-white w-[9vw] h-[30px] mt-6 py-2 px-4 rounded flex items-center justify-center text-[12px] cursor-pointer">
-            SHOP NOW
-          </button>
+          <Link to = "/collections">
+            <button className="bg-black text-white w-[9vw] h-[30px] mt-6 py-2 px-4 rounded flex items-center justify-center text-[12px] cursor-pointer">
+              SHOP NOW
+            </button>
+          </Link>
         </div>
       </div>
       <div className=' mt-20 mx-20 text-2xl'>DELIVERY & PAYMENTS</div>

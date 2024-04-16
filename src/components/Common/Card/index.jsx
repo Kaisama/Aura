@@ -1,27 +1,25 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import { faHeart  } from '@fortawesome/free-solid-svg-icons'
-import neckImg from "../../assets/images/neck.webp"
+import { FaRegHeart } from "react-icons/fa";
 
 
-
-function AllSaleCard() {
+function Card({images}) {
   return (
     <>
     <div className='py-[2rem]' style={{fontWeight: '400'}}>
       <div className='relative'>
-            <img src={neckImg} className='w-[15vw] h-[40vh]'/>
-            <p className="absolute top-[12px] text-black bg-pink-200 px-4">Sale</p>
-            <FontAwesomeIcon icon={faHeart}  className="absolute top-[12px] right-[12px] text-white"/>
+            <img src={images.url} className='w-[19vw] h-[38vh]'/>
+            <p className="absolute top-[14px] text-black bg-red-300 text-centeralign-center px-4 uppercase text-sm tracking-wide">Sale</p>
+            <FaRegHeart className="absolute top-[10px] right-[23px]"/>
         </div>
           
         <div className=''>
-            <p className="text-[14px] py-[3px]">Rhodium Diamante Leaf Patterned...</p>
+            <p className="text-[14px] py-[3px]">{images.heading}</p>
         
-            <div className="flex flex-row items-center gap-[2.5rem] py-1">
+            <div className="flex flex-row items-center gap-[2rem] py-1">
                 <div className='flex gap-2 items-center'>
-                    <p className="text-red-500">$ 19.00</p>
+                    <p className="text-red-500">{images.price}</p>
                     <del className="text-gray-400 text-[13px]">$ 25.00</del>
                 </div>
                 <div className="border border-red-500 text-[13px] px-1 ml-[25px] ">
@@ -45,4 +43,4 @@ function AllSaleCard() {
   )
 }
 
-export default AllSaleCard
+export default Card

@@ -1,5 +1,7 @@
 import React from 'react'
 import Cartilage from "../../../assets/images/home/bg-3.jpg";
+import { Link } from 'react-router-dom';
+
 
 function CartilagePiercings() {
   return (
@@ -14,9 +16,11 @@ function CartilagePiercings() {
             <div className="text-center text-sm">
               <span>Customise your earscape with premium, everyday piercing essentials..</span>
             </div>
+            <Link to = "/collections">
             <button className="bg-black text-white w-[9vw] h-[30px] mt-1 py-2 px-4 rounded flex items-center justify-center text-[12px] cursor-pointer">
               SHOP NOW
             </button>
+            </Link>
           </div>
         </div>
       </div>

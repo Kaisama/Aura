@@ -31,11 +31,12 @@ function ImageSlider({ images }) {
                                 </div>
                                 
                                 <div className='flex flex-col gap-1 justify-center'>
-                                    <p className='text-start text-[14px] text-[#333333] mx-1 my-3 leading-6'>
+                                    <p className='text-start text-[14px] text-[#333333] mx-1 my-2 leading-6'>
                                         {image.heading.length > 28 ? `${image.heading.substring(0, 20)}...` : image.heading}
                                     </p>
-                                    <p className='text-center text-sm text-[#333333] leading-6'>
-                                        {image.price}
+                                    <p className='text-center text-[13px] text-[#333333] leading-6 flex justify-center items-center align-center gap-2'>
+                                        <p className='text-red-400'>{image.price}</p>
+                                        <del className="text-gray-400 text-[13px]">$ 25.00</del>
                                     </p>
                                 </div>
                             </div>
