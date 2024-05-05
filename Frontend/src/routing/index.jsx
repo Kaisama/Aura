@@ -1,7 +1,9 @@
 import React from 'react';
-import {Routes, Route, useLocation } from 'react-router-dom';
+import {Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import Home from "../pages/Home";
 import Login from "../pages/Login";
+import ForgotPassword from "../pages/ForgotPassword";
+import ResetPassword from "../pages/ResetPassword";
 import Register from "../pages/Register";
 import FindStore from "../pages/FindStore";
 import Gifts from "../pages/Gifts";
@@ -13,6 +15,7 @@ import Collections from '../components/Common/Collections';
 import Stylechannel from './styleChannel';
 import PiercingSubRoutes from "./piercing";
 import DeliveryExchange from "./deliveryExchange";
+
 
 import { useAuthContext } from '../context/AuthContext';
 
@@ -40,8 +43,10 @@ function Routing() {
         <Route path='/piercing' element={<Piercing />} />
         <Route path='/gifts' element={<Gifts />} />
         <Route path='/find-store' element={<FindStore />} />
-        <Route path='/login' element={authUser ? "" :<Login />} />
-        <Route path='/register' element={<Register />} />
+        <Route path='/login' element={!authUser ? <Login /> : <Navigate to="/" />} />
+        <Route path='/register' element={!authUser ? <Register /> : <Navigate to="/" />} />
+        <Route path='/forgot-password' element={<ForgotPassword />} />
+        <Route path="/reset-password/:id/:token" element={<ResetPassword />} />
         <Route path='/collections' element={<Collections />} />
         <Route path='/style-channel/*' element={<Stylechannel />} />
         <Route path='/piercing/*' element={<PiercingSubRoutes />} />

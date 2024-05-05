@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { type } from "os";
 
 const userSchema = new mongoose.Schema({
     firstName: {
@@ -16,6 +17,20 @@ const userSchema = new mongoose.Schema({
     password:{
         type: String,
         required: true
+    },
+    birthDate: {
+        day:{
+            type: Number,
+            required: true
+        },
+        month:{
+            type: Number,
+            required: true
+        },
+        year:{
+            type: Number,
+            required: true
+        }
     }
 }, {timestamps: true})
 

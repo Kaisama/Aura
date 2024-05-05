@@ -145,7 +145,9 @@ function Header() {
         </div>
 
 
-        <div className='absolute z-10 bg-white w-[100%]' onMouseOver={() => setShowComponent(showComponent)}>
+        <div className='absolute z-10 bg-white w-[100%]'
+         style={{ boxShadow: "0px 3px 2px -2px rgba(0, 0, 0, 0.2)" }}
+         onMouseOver={() => setShowComponent(showComponent)}>
           {showComponent === 'new' && <NewHover setShowComponent={setShowComponent} />}
           {showComponent === 'jewellery' && <JewelleryHover setShowComponent={setShowComponent} />}
           {showComponent === 'accessories' && <AccessoriesHover setShowComponent={setShowComponent} />}

@@ -2,10 +2,9 @@ import User from "../models/user.model.js";
 import bcrypt from "bcryptjs";
 import generateTokenAndSetCookie from "../utils/generateToken.js";
 
-
 export const signup = async (req, res) => {
     try{
-        const {firstName, lastName, email, password} = req.body
+        const {firstName, lastName, email, password, day, month, year} = req.body
 
         // Case: Email already exists
         const user = await User.findOne({email})
@@ -22,7 +21,12 @@ export const signup = async (req, res) => {
             firstName,
             lastName,
             email, 
-            password: hashedPassword
+            password: hashedPassword,
+            birthDate: {
+                day,
+                month,
+                year
+            }
         })
 
         if(newUser){
@@ -38,7 +42,8 @@ export const signup = async (req, res) => {
                 firstName: newUser.firstName,
                 lastName: newUser.lastName,
                 email: newUser.email,
-                password: newUser.password
+                password: newUser.password,
+                birthDate: newUser.birthDate
             })
         }
 

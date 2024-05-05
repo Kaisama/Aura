@@ -36,7 +36,7 @@ function Store() {
                         <FontAwesomeIcon icon={faSearch} className='mx-[5rem]' />
                     </div>
 
-                    <div>
+                    {/* <div>
                         <div className='leading-2 font-thin tracking-wide my-2'>
                             <input type="checkbox" id="earPiercing" name="piercingType" /> &nbsp;
                             <label htmlFor="earPiercing" className="mr-2">Display stores with Ear Piercing available</label>
@@ -51,7 +51,7 @@ function Store() {
                             <input type="checkbox" id="nosePiercing" name="piercingType" /> &nbsp;
                             <label htmlFor="nosePiercing" className="mr-2">Display stores with 14ct Premium Piercing available</label>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

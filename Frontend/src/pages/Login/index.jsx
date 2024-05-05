@@ -49,7 +49,7 @@ function Login() {
 
            
             <div className="my-3 flex flex-col items-center align-center">
-                <p className="text-gray-400 tracking-wider text-[12px]">FORGOT YOUR PASSWORD?</p>
+                <Link to = "/forgot-password"><p className="text-gray-400 tracking-wider text-[12px] cursor-pointer">FORGOT YOUR PASSWORD?</p></Link>
                 <hr className='w-[35%]'></hr>
             </div>
 

@@ -2,6 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 import authRoutes from './routes/auth.routes.js'
+import passwordRoutes from './routes/password.routes.js'
 import connection from './db/connection.js';
 
 const app = express();
@@ -19,6 +20,10 @@ app.get("/", (req, res) => {
 
 // Authentication routes
 app.use("/api/auth", authRoutes)
+
+// Password routes
+app.use("/api", passwordRoutes)
+
 
 app.listen(PORT, () => {
     connection();

@@ -8,7 +8,7 @@ const useRegister = () => {
     const {setAuthUser} = useAuthContext()
 
 
-    const register = async({firstName, lastName, email, password}) => {
+    const register = async({firstName, lastName, email, password, day, month, year}) => {
 
         // Handle Validation
         const success = handleInputErrors({firstName, lastName, email, password})
@@ -20,7 +20,7 @@ const useRegister = () => {
             const res = await fetch("/api/auth/signup", {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
-                body: JSON.stringify({firstName, lastName, email, password})
+                body: JSON.stringify({firstName, lastName, email, password, day, month, year})
             });
             const data = await res.json();
 
