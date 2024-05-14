@@ -162,7 +162,7 @@ export const Stylethree = ()=>{
              <Carousel />
 
             <div className='flex flex-col flex-start text-sm leading-relaxed'>
-            <p>Festival season is all about expressing yourself, show off your personality at your next event in 2024 with our selection of<br></br> trending finishing touches here. Don’t forget to stand out from the crowd and tag us in your festival looks over on our Instagram<br></br> with the hashtag #MyLovisa.  
+            <p>Festival season is all about expressing yourself, show off your personality at your next event in 2024 with our selection of<br></br> trending finishing touches here. Don’t forget to stand out from the crowd and tag us in your festival looks over on our Instagram<br></br> with the hashtag #MyAura.  
 
 </p>
            

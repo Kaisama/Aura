@@ -105,7 +105,7 @@ export const Stylefour = ()=>{
 
            
             <div className='flex flex-col flex-start text-sm leading-relaxed'>
-            <p>There you have it, the ultimate gifts perfect for Aries season. Discover our guide to premium birthday gifts here or visit our Aries<br></br> collection for more star-sign-approved pieces.  Don’t forget to tag us in your birthday outfits over on our Instagram with<br></br> #MyLovisa for a chance to be featured.   </p>
+            <p>There you have it, the ultimate gifts perfect for Aries season. Discover our guide to premium birthday gifts here or visit our Aries<br></br> collection for more star-sign-approved pieces.  Don’t forget to tag us in your birthday outfits over on our Instagram with<br></br> #MyAura for a chance to be featured.   </p>
             </div>
             <br></br>
 

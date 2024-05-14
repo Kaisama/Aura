@@ -141,8 +141,8 @@ function Register() {
           <div className="border-[0.90px] border-gray-300 h-[47vh]"></div>
   
           <div className="ml-[7rem]">
-                <h1 className='text-xl leading-1 font-thin tracking-wide'>Create your Lovisa Account</h1>
-                <p className='text-[14px] my-7 tracking-wider'>Sign-up for a Lovisa account today for easy order tracking,access to your order history and address management.</p>
+                <h1 className='text-xl leading-1 font-thin tracking-wide'>Create your Aura Account</h1>
+                <p className='text-[14px] my-7 tracking-wider'>Sign-up for a Aura account today for easy order tracking,access to your order history and address management.</p>
                 <p className='text-[14px] my-7 tracking-wider'>Have you shopped with us before? You will be able to retrieve your past purchases information if you use the same email address to sign-up as the one used at time of checkout.</p>
           </div>
 

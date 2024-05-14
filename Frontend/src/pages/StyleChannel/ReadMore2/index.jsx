@@ -119,8 +119,8 @@ export const Stylechan = ()=>{
 
 
              <div className='flex flex-col flex-start text-sm leading-relaxed'><br></br>
-             <p>There you go, the top trends for weddings in 2024. Discover our entire collection of bridal jewellery here, or head to our new <br></br>arrivals collection to get your hands on the latest jewellery to land at Lovisa.   </p><br></br>
-             <p>Don’t forget to tag us in your pics from the big day over on our Instagram with #MyLovisa for a chance to be featured.  </p>
+             <p>There you go, the top trends for weddings in 2024. Discover our entire collection of bridal jewellery here, or head to our new <br></br>arrivals collection to get your hands on the latest jewellery to land at Aura.   </p><br></br>
+             <p>Don’t forget to tag us in your pics from the big day over on our Instagram with #MyAura for a chance to be featured.  </p>
            <br></br>
              
             </div>

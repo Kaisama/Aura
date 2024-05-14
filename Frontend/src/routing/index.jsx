@@ -15,6 +15,7 @@ import Collections from '../components/Common/Collections';
 import Stylechannel from './styleChannel';
 import PiercingSubRoutes from "./piercing";
 import DeliveryExchange from "./deliveryExchange";
+import FooterComp from "./footer"
 
 
 import { useAuthContext } from '../context/AuthContext';
@@ -51,6 +52,7 @@ function Routing() {
         <Route path='/style-channel/*' element={<Stylechannel />} />
         <Route path='/piercing/*' element={<PiercingSubRoutes />} />
         <Route path='/delivery-payments/*' element={<DeliveryExchange />} />
+        <Route path='/footer/*' element={<FooterComp />} />
         {/* <Route path='/collections/*' element={<New />} />
         <Route path='/collections/*' element={<Jewellery />} /> */}
       </Routes>

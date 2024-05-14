@@ -4,7 +4,7 @@ import { BsHeart } from "react-icons/bs";
 import { IoBagHandleOutline } from "react-icons/io5";
 import { LuUser } from "react-icons/lu";
 import { IoLocationOutline } from "react-icons/io5";
-import LovisaLogo from "../../../assets/images/home/LovisaLogo.jpeg"
+import Logo from "../../../assets/images/home/AuraLogo.png"
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { Link } from 'react-router-dom';
@@ -55,7 +55,7 @@ function Header() {
       {/* 2. Components/Pages */}
       <div className='text-[12px] sticky top-0 z-10' onClick={() => setShowComponent(null)}>
         <div className='top-0 bg-white'>
-          <div className='flex items-center align-center justify-between px-[5.5rem] py-[1.5rem] uppercase text-[#111111]'>
+          <div className='flex items-center align-center justify-between px-[5.5rem] py-[1.5rem] mb-4 uppercase text-[#111111]'>
             <div className='flex flex-start gap-[2.5rem]'>
 
             <div className='flex gap-1.5 items-center cursor-pointer ' onClick={handleSearchToggle}>
@@ -81,7 +81,7 @@ function Header() {
 
             <Link to="/">
               <div>
-                <img src={LovisaLogo} alt='Lovisa Logo' />
+                <img src={Logo} alt='Aura Logo' />
               </div>
             </Link>
 

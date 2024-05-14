@@ -14,16 +14,16 @@ const StudioServices = () => {
     <TopBanner/>
     <img className='w-full' src={"https://www.lovisa.sg/cdn/shop/files/studio_HERO_DESK_3840x.png?v=1673496133"} alt="service-1" />
       <div className='flex my-4 w-full'>
-         <img className="w-1/2"src={"https://www.lovisa.sg/cdn/shop/files/Piercing_at_Lovisa_2_3840x.png?v=1673496174"}  alt="Piercing at Lovisa"/>
-         <img className='w-1/2' src={"https://www.lovisa.sg/cdn/shop/files/Piercing_at_Lovisa_3840x.png?v=1673496195"} alt="Piercing at Lovisa" />
+         <img className="w-1/2"src={"https://www.lovisa.sg/cdn/shop/files/Piercing_at_Lovisa_2_3840x.png?v=1673496174"}  alt="Piercing at Aura"/>
+         <img className='w-1/2' src={"https://www.lovisa.sg/cdn/shop/files/Piercing_at_Lovisa_3840x.png?v=1673496195"} alt="Piercing at Aura" />
       </div>
       <div className='flex my-4 w-full'>
-          <img  className="w-1/2"src={"https://www.lovisa.sg/cdn/shop/files/Lovisa_Piercing_Station_3840x.png?v=1673496291"} alt="Lovisa piercing station" />
-          <img className='w-1/2' src={"https://www.lovisa.sg/cdn/shop/files/Lovisa_Piercing_Station_2_3840x.png?v=1673496276"} alt="Lovisa piercing station" />
+          <img  className="w-1/2"src={"https://www.lovisa.sg/cdn/shop/files/Lovisa_Piercing_Station_3840x.png?v=1673496291"} alt="Aura piercing station" />
+          <img className='w-1/2' src={"https://www.lovisa.sg/cdn/shop/files/Lovisa_Piercing_Station_2_3840x.png?v=1673496276"} alt="Aura piercing station" />
       </div>
     
       
-      <img className="my-4 "src={"https://www.lovisa.sg/cdn/shop/files/free_piercing_DESK_d4869b23-118c-4a1c-8e6e-1309b1529ae7_3840x.png?v=1673934930"} alt="Lovisa ear piercing FAQ's" />
+      <img className="my-4 "src={"https://www.lovisa.sg/cdn/shop/files/free_piercing_DESK_d4869b23-118c-4a1c-8e6e-1309b1529ae7_3840x.png?v=1673934930"} alt="Aura ear piercing FAQ's" />
       <h1 className='text-5xl text-center mt-36 '>VIEW THE STUDEX RANGE - PRICES FROM $45 |</h1>
       <Carousel1 />
       
@@ -55,7 +55,7 @@ const StudioServices = () => {
             {hovered1 && (
               <div className="bg-transparent bg-opacity-0 w-full h-full flex flex-col items-center justify-center">
                 <p className="color-black font-semibold text-lg">
-                  Click here to find your closest Lovisa piercing station.
+                  Click here to find your closest Aura piercing station.
                 </p>
                
                 <button

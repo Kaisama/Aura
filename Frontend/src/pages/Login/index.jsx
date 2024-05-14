@@ -58,8 +58,8 @@ function Login() {
           <div className="border-[0.90px] border-gray-300 h-[47vh]"></div>
   
           <div className="ml-[7rem]">
-                <h1 className='text-xl leading-1 font-thin tracking-wide'>Create your Lovisa Account</h1>
-                <p className='text-[14px]  my-7 tracking-wider'>Sign-up for a Lovisa account today for easy order tracking,access to your order history and address management.</p>
+                <h1 className='text-xl leading-1 font-thin tracking-wide'>Create your Aura Account</h1>
+                <p className='text-[14px]  my-7 tracking-wider'>Sign-up for a Aura account today for easy order tracking,access to your order history and address management.</p>
              
                 <button className="my-10 px-4 py-3 text-sm tracking-wider  bg-white text-gray-600  hover:bg-black hover:text-white transition-colors duration-300 border border-t-gray-400 border-r-gray-400 border-l-gray-400 border-b-gray-400">
                   <Link to ='/register'>CREATE ACCOUNT</Link>

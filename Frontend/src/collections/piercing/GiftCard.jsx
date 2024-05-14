@@ -27,7 +27,7 @@ export const Pirecinggiftcart = ()=>{
                     <div className='flex flex-col flex-start text-sm leading-relaxed '>
 
                         <div className='flex flex-col flex-start text-sm leading-relaxed '>
-                            <p >Shopping for someone else but not sure what to give them? Why not give <br></br>them the gift of piercing with our Lovisa Piercing Gift cards! <br></br>
+                            <p >Shopping for someone else but not sure what to give them? Why not give <br></br>them the gift of piercing with our Aura Piercing Gift cards! <br></br>
                                 Piercing gift cards are delivered via email and include instructions on how <br></br>to use them in our Singapore & Malaysian stores where the piercing service<br></br> is offered. <br></br>
                                 To find your nearest piercing store, use our Store Finder.<br></br>Our gift cards have no additional processing fees but please note that any <br></br> gift card cannot be refunded or used in conjunction with any other voucher<br></br>codes.</p>
                         </div>
@@ -87,7 +87,7 @@ export const Pirecinggiftcart = ()=>{
                     <div className='text-[12px]'>
                         <p>LOCATE YOUR NEAREST STORE →</p>&nbsp;
                         <p>SEE PIERCING STUD PRICE LIST →</p>&nbsp;
-                        <p>LEARN MORE ABOUT PIERCING AT LOVISA →</p>
+                        <p>LEARN MORE ABOUT PIERCING AT AURA →</p>
                     </div>
 
                 

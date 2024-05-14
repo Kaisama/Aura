@@ -115,7 +115,7 @@ export const Stylechannel = ()=>{
            {/* CAROUSEL */}
            <Carousel/>
 
-           <p className='flex flex-col flex-start text-sm leading-relaxed'>There you have it, the ultimate gifts perfect for Taurus season. Discover our guide to premium birthday gifts here, or visit our<br></br> Taurus collection for more star-sign approved pieces. Don’t forget to tag us in your birthday outfits over on our Instagram with <br></br>#MyLovisa for a chance to be featured.   </p>
+           <p className='flex flex-col flex-start text-sm leading-relaxed'>There you have it, the ultimate gifts perfect for Taurus season. Discover our guide to premium birthday gifts here, or visit our<br></br> Taurus collection for more star-sign approved pieces. Don’t forget to tag us in your birthday outfits over on our Instagram with <br></br>#MyAura for a chance to be featured.   </p>
            </div>
            &nbsp;
            <div>

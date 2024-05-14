@@ -23,13 +23,7 @@ function Home() {
       <BestSellers/>
       <CartilagePiercings/>
       <StyleCards/>
-      <div className='absolute  text-2xl w-full text-center mt-[5em] tracking-wide'>#MYLOVISA</div>
       <MyLovisaCards/>
-
-      <div className='pt-[2rem] pb-[5rem] text-[#000000] text-sm tracking-tight cursor-pointer hover:underline'>
-        <div className='w-full text-center uppercase leading-6'>show it to the world on instagram </div>
-        <div className='w-full text-center '>#MYLOVISA @LOVISAJWELLERY </div>
-      </div>
     </>
   )
 }

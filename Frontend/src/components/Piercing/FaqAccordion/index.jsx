@@ -27,9 +27,6 @@ const FAQAccordion = () => {
             case 4: 
                 setIsOpen4(!isOpen4); 
                 break; 
-            case 4: 
-                setIsOpen4(!isOpen4); 
-                break; 
             case 5: 
                 setIsOpen5(!isOpen5); 
                 break; 
@@ -66,8 +63,8 @@ const FAQAccordion = () => {
                             <img src={'https://www.lovisa.sg/cdn/shop/files/PIERCING_STATION_3840x.jpg?v=1613767910'} alt='img' /> 
                         </div> 
                         <div className='w-[50%] text-[0.9rem] text-[#111111]'> 
-                            <p>The Lovisa Piercing Station is a clean and sterile environment, with a strict sanitization procedure that is performed every day as well as before & after every piercing is performed. We use the latest Studex System 75 piercing device and our Piercing Stylists are fully trained in its use. Your ears will be pierced in an hygienic environment using pre-sterilised tools and individually packaged sterile studs that are hypoallergenic, nickel compliant and made from Surgical Stainless Steel.<br /><br /> 
-                                We’ve done everything possible to make sure you feel welcome and comfortable with the procedure when you visit our Piercing stores. We’ll take the time to understand what you are looking for and after the piercing go through the correct aftercare procedures. This is why we’ve become the trusted name in piercing and why our customers choose Lovisa as their piercing destination.</p> 
+                            <p>The Aura Piercing Station is a clean and sterile environment, with a strict sanitization procedure that is performed every day as well as before & after every piercing is performed. We use the latest Studex System 75 piercing device and our Piercing Stylists are fully trained in its use. Your ears will be pierced in an hygienic environment using pre-sterilised tools and individually packaged sterile studs that are hypoallergenic, nickel compliant and made from Surgical Stainless Steel.<br /><br /> 
+                                We’ve done everything possible to make sure you feel welcome and comfortable with the procedure when you visit our Piercing stores. We’ll take the time to understand what you are looking for and after the piercing go through the correct aftercare procedures. This is why we’ve become the trusted name in piercing and why our customers choose Aura as their piercing destination.</p> 
                         </div> 
                     </div> 
                     <div className='border-b-[1px] border-[#000000]'></div> 
@@ -91,8 +88,8 @@ const FAQAccordion = () => {
                             <img src={'https://www.lovisa.sg/cdn/shop/files/PIERCING_STATION_3840x.jpg?v=1613767910'} alt='img' /> 
                         </div> 
                         <div className='w-[50%] text-[0.9rem]'> 
-                            <p>The Lovisa Piercing Station is a clean and sterile environment, with a strict sanitization procedure that is performed every day as well as before & after every piercing is performed. We use the latest Studex System 75 piercing device and our Piercing Stylists are fully trained in its use. Your ears will be pierced in an hygienic environment using pre-sterilised tools and individually packaged sterile studs that are hypoallergenic, nickel compliant and made from Surgical Stainless Steel.<br /><br /> 
-                                We’ve done everything possible to make sure you feel welcome and comfortable with the procedure when you visit our Piercing stores. We’ll take the time to understand what you are looking for and after the piercing go through the correct aftercare procedures. This is why we’ve become the trusted name in piercing and why our customers choose Lovisa as their piercing destination.</p> 
+                            <p>The Aura Piercing Station is a clean and sterile environment, with a strict sanitization procedure that is performed every day as well as before & after every piercing is performed. We use the latest Studex System 75 piercing device and our Piercing Stylists are fully trained in its use. Your ears will be pierced in an hygienic environment using pre-sterilised tools and individually packaged sterile studs that are hypoallergenic, nickel compliant and made from Surgical Stainless Steel.<br /><br /> 
+                                We’ve done everything possible to make sure you feel welcome and comfortable with the procedure when you visit our Piercing stores. We’ll take the time to understand what you are looking for and after the piercing go through the correct aftercare procedures. This is why we’ve become the trusted name in piercing and why our customers choose Aura as their piercing destination.</p> 
                         </div> 
                     </div> 
                 </div> 
@@ -156,7 +153,7 @@ const FAQAccordion = () => {
  
                             {/* Faq nested toggle */} 
                             <div style={{ maxHeight: isOpen6 ? '1000px' : '0', overflow: 'hidden', transition: 'max-height 0.3s ease-in-out' }}> 
-                                <div className='text-[#111111] py-8 leading-6 w-[50vw] text-sm'>As a general rule, if you are under the age of 16 years old, you will need your parent or legal guardian present with you to consent for you to have your ears pierced. That age consent may differ depending on what territory or country you live in. Please consult your nearest Lovisa store for further information. Make sure you bring a form of identification with you to verify your age such as a driver’s license, school identification, birth certificate or passport.</div> 
+                                <div className='text-[#111111] py-8 leading-6 w-[50vw] text-sm'>As a general rule, if you are under the age of 16 years old, you will need your parent or legal guardian present with you to consent for you to have your ears pierced. That age consent may differ depending on what territory or country you live in. Please consult your nearest Aura store for further information. Make sure you bring a form of identification with you to verify your age such as a driver’s license, school identification, birth certificate or passport.</div> 
                             </div> 
  
                             {/* 3rd faq */} 
@@ -183,9 +180,9 @@ stroke="#000000" strokeWidth="0"></path></svg>
  
                             {/* Faq nested toggle */} 
                             <div style={{ maxHeight: isOpen8 ? '1000px' : '0', overflow: 'hidden', transition: 'max-height 0.3s ease-in-out' }}> 
-                                <div className='text-[#111111] py-8 leading-6 w-[50vw] text-sm'>Lovisa offers a FREE Ear Piercing Service that includes FREE aftercare solution with the purchase of your Studex Piercing Studs. The prices vary in each country.<br /> 
+                                <div className='text-[#111111] py-8 leading-6 w-[50vw] text-sm'>Aura offers a FREE Ear Piercing Service that includes FREE aftercare solution with the purchase of your Studex Piercing Studs. The prices vary in each country.<br /> 
  
-                                    We also offer children over the ages of 3 years old a free Lovisa Teddy Bear (while stocks last) and certificate to make their experience extra special.</div> 
+                                    We also offer children over the ages of 3 years old a free Aura Teddy Bear (while stocks last) and certificate to make their experience extra special.</div> 
                             </div> 
  
                         </div> 

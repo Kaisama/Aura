@@ -29,9 +29,9 @@ function Gifts() {
 
                 {/* gifting div */}
                 <div className="flex flex-col justify-center items-center mt-7">
-                    <h3 className="text-3xl font-bold mt-9">-Gifting With Lovisa-</h3>
+                    <h3 className="text-3xl font-bold mt-9">-Gifting With Aura-</h3>
                     <p className="mt-3 text-sm p-10 text-center">
-                        Looking for gift ideas to surprise someone special? Our ultimate Lovisa gift guide has everything you need to make a lasting impression. We’ve hand-picked a selection of trending accessories and gift-ready sentimental jewellery, perfect for celebrating memorable milestones in 2024.
+                        Looking for gift ideas to surprise someone special? Our ultimate Aura gift guide has everything you need to make a lasting impression. We’ve hand-picked a selection of trending accessories and gift-ready sentimental jewellery, perfect for celebrating memorable milestones in 2024.
                     </p>
                 </div>
 

@@ -40,7 +40,7 @@ function Collections() {
 
           <div className='my-5'>
               <h1 className=" text-center text-4xl my-5">Mid Season Sale</h1>
-              <p className='tracking-wide'>Mid-Season Sale has landed at Lovisa! Level up your jewellery collection with signature jewellery pieces and trending accessories, including pendant<br/>
+              <p className='tracking-wide'>Mid-Season Sale has landed at Aura! Level up your jewellery collection with signature jewellery pieces and trending accessories, including pendant<br/>
               <span className="block mx-auto text-center"> and chain necklaces hoop and huggie earrings hair accessories body jewellery and so much.</span></p>
           </div> 
 

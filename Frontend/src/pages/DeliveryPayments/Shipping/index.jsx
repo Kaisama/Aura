@@ -48,11 +48,11 @@ function Shipping() {
 
                     <li className='text-[14px] w-full'><i>There may be a delay of up to 2-4 business days during our sale periods.</i></li>
 
-                    <li className='text-[14px]'><i>All orders are shipped out of Singapore and could incur charges due to local duties and taxes. Lovisa is not responsible for any additional fees, restricted items or delay in delivery due to these circumstances. If you have any queries or concerns about this please check your local customs policy.</i></li>
+                    <li className='text-[14px]'><i>All orders are shipped out of Singapore and could incur charges due to local duties and taxes. Aura is not responsible for any additional fees, restricted items or delay in delivery due to these circumstances. If you have any queries or concerns about this please check your local customs policy.</i></li>
 
                     <li className='text-[14px]'><i>These transit days are estimates only. Once your parcel has been collected by the courier we are not responsible for any delays in delivery.</i></li>
 
-                    <li className='text-[14px] mb-9'><i>Once your order has been placed online we are unable to make amendments to product, customer or delivery details. Alternatively, if you have any queries about placing an order or an order you have received, please contact our team at  <a href="info@lovisa.com">info@lovisa.com</a></i></li>
+                    <li className='text-[14px] mb-9'><i>Once your order has been placed online we are unable to make amendments to product, customer or delivery details. Alternatively, if you have any queries about placing an order or an order you have received, please contact our team at  <a href="info@aura.com">info@aura.com</a></i></li>
 
                 </div>
             </div>

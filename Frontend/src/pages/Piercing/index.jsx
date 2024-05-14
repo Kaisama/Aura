@@ -22,7 +22,7 @@ function Piercing() {
       <div className='w-full my-6'>
         <img src={'https://www.lovisa.sg/cdn/shop/files/PIERCING_LANDING_PAGE_2020_HEADER_3840x.jpg?v=1613767080'} />
       </div>
-      <h1 className='text-center mt-14 mb-3 text-[#333333] text-4xl font-normal leading-2'>Lovisa Ear Piercing</h1>
+      <h1 className='text-center mt-14 mb-3 text-[#333333] text-4xl font-normal leading-2'>Aura Ear Piercing</h1>
       <div className="mx-auto w-[5vw] border-b-2 rounded-sm border-[#111111] font-normal"></div>
       {/* Piercing nav */}
       <div>
@@ -35,7 +35,7 @@ function Piercing() {
       {/* About */}
       <div className='text-[#333333] flex flex-col items-center justify-center'>
         <h1 className=' mt-20  text-3xl uppercase'>Create Your New Piercing Look!</h1>
-        <p className='text-center w-[30vw] my-8'>Lovisa offers ear piercing in selected stores across the world.
+        <p className='text-center w-[30vw] my-8'>Aura offers ear piercing in selected stores across the world.
           There is no need to book, just walk in!</p>
         <p className='text-center w-[40vw] mb-8'>Our piercing stylists are fully trained in using our state-of-the-art piercing device and health & safety procedures required to deliver the perfect piercing.</p>
       </div>
